@@ -27,7 +27,7 @@ namespace Sel4Training
             foreach (var item in products)
             {
                 var stickers = item.FindElements(By.CssSelector(".sticker")); // все стикеры товара
-                Assert.That(stickers.Count + 1, Is.EqualTo(1), $"Неверное количество стикеров у товара '{item.Text}'");
+                Assert.That(stickers.Count, Is.EqualTo(1), $"Неверное количество стикеров у товара '{item.Text}'");
             }
         }
 
