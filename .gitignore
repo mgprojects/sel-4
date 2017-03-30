@@ -285,3 +285,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+*.pdb
+*.dll
+Sel4Training/.vs/Sel4Training/v14/.suo
+*.tmp
